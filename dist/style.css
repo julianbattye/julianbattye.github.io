@@ -1,0 +1,252 @@
+:root {
+  --colour-black: #2e4058;
+  --colour-black-rgb: 46, 64, 88;
+  --padding: 24px clamp(24px, 5%, 64px) clamp(24px, 5%, 64px);
+  --max-width: 480px;
+  --logo-colour: #ee0000;
+  --logo-colour: rgb(0, 199, 255);
+  --text-colour: var(--colour-black);
+  --link-colour: black;
+  --link-underline: rgba(0, 199, 255, 0.7);
+  --link-underline-hover: rgba(0, 199, 255, 1);
+  --heading-colour: #1c2838;
+  --box-background-colour: #f4f5f6;
+  --background-colour: white;
+  --background-hover: rgba(255, 152, 0, 0.7);
+  --selection-background: rgba(0, 199, 255, 0.54);
+}
+:root [data-theme=dark] {
+  --text-colour: #cfcfd3;
+  --link-colour: white;
+  --link-underline: rgba(0, 199, 255, 0.5);
+  --link-underline-hover: rgba(0, 199, 255, 1);
+  --heading-colour: #fafaff;
+  --box-background-colour: #1a1a1e;
+  --background-colour: #22232a;
+  --background-hover: rgba(0, 123, 255, 0.722);
+  --selection-background: rgba(0, 154, 255, 0.54);
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+::selection {
+  background-color: var(--selection-background);
+}
+
+body {
+  background-color: var(--background-colour);
+  transition: background-color 0.4s ease-out;
+  color: var(--text-colour);
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Ubuntu, sans-serif, Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+  margin: 0;
+  display: flex;
+  min-height: 100%;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 0.75em;
+  --icon-size: 32px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  max-width: var(--max-width);
+}
+section.intro {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main {
+  padding: var(--padding);
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  display: flex;
+}
+
+h1,
+h2,
+h3,
+p {
+  transition: color 0.4s ease-out, background-color 0.4s ease-out;
+}
+
+h1 {
+  color: var(--heading-colour);
+  font-size: 2.25em;
+  font-weight: 600;
+  letter-spacing: 1;
+  line-height: 1.2;
+  margin-bottom: 0.8888em;
+  margin-top: 0;
+  vertical-align: baseline;
+}
+
+h2 {
+  color: var(--heading-colour);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 28px;
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0.75em;
+  margin-top: 0;
+}
+p:last-of-type {
+  margin-bottom: 0;
+}
+p s {
+  opacity: 0.5;
+}
+
+a {
+  color: var(--heading-colour);
+  text-decoration: underline;
+  text-decoration-color: var(--link-underline);
+  text-decoration-thickness: 3px;
+  text-underline-position: under;
+  transition: color 0.4s ease-out, text-decoration-color 0.4s ease-out;
+}
+a:hover {
+  text-decoration-color: var(--link-underline-hover);
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0.75em;
+}
+ul ul {
+  margin-top: 0.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+li:last-of-type {
+  margin-bottom: 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  padding-left: 0.25em;
+  user-select: none;
+  color: var(--heading-colour);
+  cursor: default;
+}
+.logo span {
+  margin-right: 0.25em;
+  color: var(--logo-colour);
+  transition: transform 0.4s ease-out;
+}
+.logo:hover span {
+  transform: rotateY(180deg);
+}
+
+:root {
+  --icon-wght: 300;
+  --icon-opsz: 24;
+  --icon-grad: 0;
+  --icon-size: 24px;
+}
+:root [data-theme=dark] {
+  --icon-grad: -25;
+}
+
+body .material-symbols-rounded {
+  font-size: var(--icon-size);
+  font-variation-settings: "wght" var(--icon-wght), "opsz" var(--icon-opsz), "GRAD" var(--icon-grad);
+}
+
+.dark-mode-switch {
+  display: flex;
+  margin: 0 0 0 0.5rem;
+  opacity: 0.5;
+  transition: opacity 0.4s ease-out;
+  border-radius: 22px;
+  overflow: hidden;
+}
+.dark-mode-switch:hover, .dark-mode-switch:focus {
+  opacity: 1;
+}
+.dark-mode-switch input.material-symbols-rounded[type=checkbox] {
+  user-select: none;
+  display: flex;
+  visibility: hidden;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  --icon-wght: 300;
+  --icon-opsz: 24;
+  --icon-size: 32px;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+}
+.dark-mode-switch input.material-symbols-rounded[type=checkbox]::after {
+  content: "";
+  user-select: none;
+  visibility: visible;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+.dark-mode-switch input.material-symbols-rounded[type=checkbox]:hover:after {
+  background-color: var(--background-hover);
+}
+.dark-mode-switch input.material-symbols-rounded[type=checkbox]:checked:after {
+  content: "dark_mode";
+  color: white;
+}
+.dark-mode-switch input.material-symbols-rounded[type=checkbox]:not(:checked):after {
+  content: "light_mode";
+}
+.dark-mode-switch label {
+  visibility: hidden;
+  position: absolute;
+  top: -9999;
+  left: -9999;
+}
+
+.box {
+  background-color: var(--box-background-colour);
+  padding: 2rem;
+  border-radius: 0.5em;
+  width: 100%;
+  transition: color 0.4s ease-out, background-color 0.4s ease-out;
+}
