@@ -1,0 +1,31 @@
+.project-icon {
+  margin-bottom: 0.5em;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  .icon {
+    position: absolute;
+    --icon-size: 80px;
+    --icon-wght: 200;
+  }
+
+  &::after {
+    content: "";
+    background-color: transparent;
+    width: 38px;
+    height: 38px;
+    top: 20px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    transition: background-color 0.2s;
+  }
+
+  &:hover::after {
+    background-color: rgb(255, 204, 0);
+  }
+}

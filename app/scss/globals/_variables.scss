@@ -1,0 +1,33 @@
+// css variables
+
+:root {
+  --colour-black: #2e4058;
+  --colour-black-rgb: 46, 64, 88;
+  --padding: 24px clamp(24px, 5%, 64px) clamp(24px, 5%, 64px);
+  --max-width: 480px;
+
+  --logo-colour: #ee0000;
+  --logo-colour: rgb(0, 199, 255);
+  --text-colour: var(--colour-black);
+  --link-colour: black;
+  --link-underline: rgba(0, 199, 255, 0.7);
+  --link-underline-hover: rgba(0, 199, 255, 1);
+  --heading-colour: #1c2838;
+  --box-background-colour: #f4f5f6;
+  --background-colour: white;
+  --background-hover: rgba(255, 152, 0, 0.7);
+
+  --selection-background: rgba(0, 199, 255, 0.54);
+
+  [data-theme="dark"] {
+    --text-colour: #cfcfd3;
+    --link-colour: white;
+    --link-underline: rgba(0, 199, 255, 0.5);
+    --link-underline-hover: rgba(0, 199, 255, 1);
+    --heading-colour: #fafaff;
+    --box-background-colour: #1a1a1e;
+    --background-colour: #22232a;
+    --background-hover: rgba(0, 123, 255, 0.722);
+    --selection-background: rgba(0, 154, 255, 0.54);
+  }
+}

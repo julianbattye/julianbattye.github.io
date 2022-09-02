@@ -1,0 +1,24 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  min-height: 44px;
+  padding-left: 0.25em;
+  user-select: none;
+  color: var(--heading-colour);
+  cursor: default;
+  span {
+    margin-right: 0.25em;
+    color: var(--logo-colour);
+    transition: transform 0.4s ease-out;
+  }
+
+  &:hover {
+    span {
+      transform: rotateY(180deg);
+    }
+  }
+}

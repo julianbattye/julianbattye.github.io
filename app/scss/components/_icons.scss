@@ -1,0 +1,19 @@
+// components
+
+:root {
+  --icon-wght: 300;
+  --icon-opsz: 24;
+  --icon-grad: 0;
+  --icon-size: 24px;
+  [data-theme="dark"] {
+    --icon-grad: -25;
+  }
+}
+
+body {
+  .material-symbols-rounded {
+    font-size: var(--icon-size);
+    font-variation-settings: "wght" var(--icon-wght), "opsz" var(--icon-opsz),
+      "GRAD" var(--icon-grad);
+  }
+}

@@ -61,7 +61,7 @@ body {
 header {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0.5em 0.75em;
   --icon-size: 32px;
 }
@@ -85,6 +85,10 @@ main {
   align-items: center;
   flex-grow: 1;
   display: flex;
+}
+
+.big {
+  font-size: 200%;
 }
 
 h1,
@@ -159,6 +163,7 @@ li:last-of-type {
   font-weight: 600;
   font-size: 18px;
   line-height: 1;
+  min-height: 44px;
   padding-left: 0.25em;
   user-select: none;
   color: var(--heading-colour);
@@ -188,65 +193,32 @@ body .material-symbols-rounded {
   font-variation-settings: "wght" var(--icon-wght), "opsz" var(--icon-opsz), "GRAD" var(--icon-grad);
 }
 
-.dark-mode-switch {
-  display: flex;
-  margin: 0 0 0 0.5rem;
-  opacity: 0.5;
-  transition: opacity 0.4s ease-out;
-  border-radius: 22px;
-  overflow: hidden;
-}
-.dark-mode-switch:hover, .dark-mode-switch:focus {
-  opacity: 1;
-}
-.dark-mode-switch input.material-symbols-rounded[type=checkbox] {
-  user-select: none;
-  display: flex;
-  visibility: hidden;
-  width: 44px;
-  height: 44px;
-  justify-content: center;
-  align-items: center;
-  --icon-wght: 300;
-  --icon-opsz: 24;
-  --icon-size: 32px;
-  cursor: pointer;
-  margin: 0;
+.project-icon {
+  margin-bottom: 0.5em;
+  width: 100px;
+  height: 100px;
   position: relative;
-}
-.dark-mode-switch input.material-symbols-rounded[type=checkbox]::after {
-  content: "";
-  user-select: none;
-  visibility: visible;
-  position: absolute;
-  width: 100%;
-  height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  transition: background-color 0.3s;
+  justify-content: center;
+  cursor: default;
 }
-.dark-mode-switch input.material-symbols-rounded[type=checkbox]:hover:after {
-  background-color: var(--background-hover);
-}
-.dark-mode-switch input.material-symbols-rounded[type=checkbox]:checked:after {
-  content: "dark_mode";
-  color: white;
-}
-.dark-mode-switch input.material-symbols-rounded[type=checkbox]:not(:checked):after {
-  content: "light_mode";
-}
-.dark-mode-switch label {
-  visibility: hidden;
+.project-icon .icon {
   position: absolute;
-  top: -9999;
-  left: -9999;
+  --icon-size: 80px;
+  --icon-wght: 200;
 }
-
-.box {
-  background-color: var(--box-background-colour);
-  padding: 2rem;
-  border-radius: 0.5em;
-  width: 100%;
-  transition: color 0.4s ease-out, background-color 0.4s ease-out;
+.project-icon::after {
+  content: "";
+  background-color: transparent;
+  width: 38px;
+  height: 38px;
+  top: 20px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  transition: background-color 0.2s;
+}
+.project-icon:hover::after {
+  background-color: #ffcc00;
 }
