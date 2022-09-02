@@ -17,6 +17,28 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 8137,
+		"oA": 0,
+		"oAP": "/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 25918,
+		"oA": 0,
+		"oAP": "/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/app/scss/components/_icons.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -121,6 +143,17 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 7430,
+		"oA": 0,
+		"oAP": "/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -130,6 +163,36 @@
 		"oAP": "/dist/style-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 537,
+		"oA": 0,
+		"oAP": "/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1077,
+		"oA": 0,
+		"oAP": "/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/favicon.ico",
+		"oF": 0
 		},
 	"/index.html": {
 		"cB": 0,
