@@ -11,7 +11,7 @@
   --link-underline-hover: rgba(0, 199, 255, 1);
   --heading-colour: #1c2838;
   --box-background-colour: #f4f5f6;
-  --background-colour: white;
+  --background-colour: rgb(242, 242, 242);
   --background-hover: rgba(255, 152, 0, 0.7);
   --selection-background: rgba(0, 199, 255, 0.54);
 }
@@ -217,8 +217,13 @@ body .material-symbols-rounded {
   border-radius: 50%;
   position: absolute;
   z-index: -1;
-  transition: background-color 0.2s;
+  transition: background-color 0.3s;
 }
-.project-icon:hover::after {
+.hover-me {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.hover-me:hover .project-icon::after {
   background-color: #ffcc00;
 }

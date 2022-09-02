@@ -22,10 +22,21 @@
     border-radius: 50%;
     position: absolute;
     z-index: -1;
-    transition: background-color 0.2s;
+    transition: background-color 0.3s;
   }
 
   &:hover::after {
-    background-color: rgb(255, 204, 0);
+  }
+}
+
+.hover-me {
+  // justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  &:hover {
+    .project-icon::after {
+      background-color: rgb(255, 204, 0);
+    }
   }
 }
