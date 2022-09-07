@@ -23,8 +23,8 @@
 		"oA": 0,
 		"oAP": "/android-chrome-192x192.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -34,8 +34,8 @@
 		"oA": 0,
 		"oAP": "/android-chrome-512x512.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -49,7 +49,7 @@
 		"oA": 1,
 		"oAP": "/dist/_icons.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"sct": 0
 		},
 	"/app/scss/components/_logo.scss": {
@@ -62,7 +62,7 @@
 		"oA": 1,
 		"oAP": "/dist/_logo.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"sct": 0
 		},
 	"/app/scss/components/_project-icon.scss": {
@@ -75,7 +75,7 @@
 		"oA": 1,
 		"oAP": "/dist/_project-icon.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"sct": 0
 		},
 	"/app/scss/globals/_base.scss": {
@@ -88,7 +88,7 @@
 		"oA": 1,
 		"oAP": "/dist/_base.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"sct": 0
 		},
 	"/app/scss/globals/_reset.scss": {
@@ -101,7 +101,7 @@
 		"oA": 1,
 		"oAP": "/dist/_reset.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"sct": 0
 		},
 	"/app/scss/globals/_typography.scss": {
@@ -114,7 +114,7 @@
 		"oA": 1,
 		"oAP": "/dist/_typography.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"sct": 0
 		},
 	"/app/scss/globals/_variables.scss": {
@@ -127,7 +127,7 @@
 		"oA": 1,
 		"oAP": "/dist/_variables.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"sct": 0
 		},
 	"/app/scss/style.scss": {
@@ -140,7 +140,7 @@
 		"oA": 0,
 		"oAP": "/dist/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"sct": 0
 		},
 	"/apple-touch-icon.png": {
@@ -149,8 +149,8 @@
 		"oA": 0,
 		"oAP": "/apple-touch-icon.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -170,8 +170,8 @@
 		"oA": 0,
 		"oAP": "/favicon-16x16.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -181,8 +181,8 @@
 		"oA": 0,
 		"oAP": "/favicon-32x32.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2253,7 +2253,7 @@
 		"createSourceMap": 0,
 		"decimalPrecision": 10,
 		"emitCharset": 1,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
