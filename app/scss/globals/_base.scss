@@ -24,13 +24,14 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
     Ubuntu, sans-serif, Roboto, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
-  font-size: 16px;
+  font-size: clamp(16px, 8vw, 32px);
   line-height: 1.5;
   position: relative;
   margin: 0;
   display: flex;
   min-height: 100%;
   align-items: center;
+  text-align: center;
 }
 
 header {
@@ -60,8 +61,4 @@ main {
   align-items: center;
   flex-grow: 1;
   display: flex;
-}
-
-.big {
-  font-size: 200%;
 }
