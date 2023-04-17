@@ -39,6 +39,26 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/app/assets/bad-island.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/app/assets/bad-island.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/app/assets/flower.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/app/assets/flower.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/app/scss/components/_icons.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -154,6 +174,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/CNAME",
+		"oF": 0
+		},
 	"/dist/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -200,6 +228,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.html",
+		"oF": 0
+		},
+	"/sitemap.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/sitemap.xml",
 		"oF": 0
 		}
 	},
