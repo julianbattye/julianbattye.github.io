@@ -20,8 +20,7 @@
 <script>
     // Notify the parent page when the iframe is loaded
     window.addEventListener("load", () => {
-        // Ensure that you're posting the message to the correct origin (replace 'https://parentpage.com' with your parent page's origin)
-        window.parent.postMessage("iframeLoaded", 'https://parentpage.com');
+        window.parent.postMessage("iframeLoaded", 'https://codepen.io');
     });
 </script>
 </body>
