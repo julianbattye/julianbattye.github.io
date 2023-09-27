@@ -17,11 +17,12 @@
         <p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam gravida non commodo a sodales sit amet nisi.</p>        <p>Praesent dapibus neque id cursus faucibus tortor neque egestas auguae eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi tincidunt quis accumsan porttitor facilisis luctus metus.</p>
         <p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam gravida non commodo a sodales sit amet nisi.</p>
 
-    <script>
-        // Notify the parent page when the iframe is loaded
-        window.addEventListener("load", () => {
-            window.parent.postMessage("iframeLoaded", "*");
-        });
-    </script>
+<script>
+    // Notify the parent page when the iframe is loaded
+    window.addEventListener("load", () => {
+        // Ensure that you're posting the message to the correct origin (replace 'https://parentpage.com' with your parent page's origin)
+        window.parent.postMessage("iframeLoaded", 'https://parentpage.com');
+    });
+</script>
 </body>
 </html>
