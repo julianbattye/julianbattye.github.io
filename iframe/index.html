@@ -18,15 +18,24 @@
         <p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam gravida non commodo a sodales sit amet nisi.</p>
 
 <style>
+  div.bookingsPreview {
+    /* width: 100%; */
+    display: flex;
+    max-width: 800px;
+  }
   iframe#bookingsPreview {
-      width: 100%;
-      max-width: 800px;
+      width: 1px;
+      min-width: 100%;
+      height: 100%;
+      margin: 0 auto;
   }
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.1/iframeResizer.min.js"></script>
+<div class="bookingsPreview">
 <iframe id="bookingsPreview" src="https://booking-calendar-preview.gm.sandbox.membr.com/calendar/gym/831" frameborder="0"></iframe>
+</div>
 <script>
-  iFrameResize({ log: true }, '#bookingsPreview')
+  iFrameResize({ log: true, heightCalculationMethod: lowestElement }, '#bookingsPreview')
 </script>
 </body>
 </html>
