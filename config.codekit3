@@ -222,6 +222,14 @@
 		"oAP": "/favicon.ico",
 		"oF": 0
 		},
+	"/iframe/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/iframe/index.html",
+		"oF": 0
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -230,12 +238,231 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
+	"/questions/assets/client.c67de31f.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dist/client.c67de31f.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/questions/assets/hoisted.e5c34281.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dist/hoisted.e5c34281.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/questions/assets/index.24c91d15.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/questions/assets/index.24c91d15-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/questions/favicon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/questions/favicon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/questions/icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/questions/icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/questions/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/questions/index.html",
+		"oF": 0
+		},
+	"/questions/view/2/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/questions/view/2/index.html",
+		"oF": 0
+		},
+	"/questions/view/3/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/questions/view/3/index.html",
+		"oF": 0
+		},
+	"/questions/view/4/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/questions/view/4/index.html",
+		"oF": 0
+		},
+	"/questions/view/5/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/questions/view/5/index.html",
+		"oF": 0
+		},
+	"/questions/view/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/questions/view/index.html",
+		"oF": 0
+		},
+	"/sessions/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/sessions/index.html",
+		"oF": 0
+		},
 	"/sitemap.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/sitemap.xml",
+		"oF": 0
+		},
+	"/solver-v1/assets/client.e6357ef4.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dist/client.e6357ef4.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/solver-v1/assets/index.a2186b7e.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/solver-v1/assets/index.a2186b7e-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/solver-v1/assets/index.d940e4e8.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dist/index.d940e4e8.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/solver-v1/assets/Navbar.2bc4e6ef.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dist/Navbar.2bc4e6ef.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/solver-v1/favicon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/solver-v1/favicon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/solver-v1/icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/solver-v1/icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/solver-v1/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/solver-v1/index.html",
+		"oF": 0
+		},
+	"/solver-v1/view/2/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/solver-v1/view/2/index.html",
+		"oF": 0
+		},
+	"/solver-v1/view/3/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/solver-v1/view/3/index.html",
+		"oF": 0
+		},
+	"/solver-v1/view/4/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/solver-v1/view/4/index.html",
+		"oF": 0
+		},
+	"/solver-v1/view/5/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/solver-v1/view/5/index.html",
+		"oF": 0
+		},
+	"/solver-v1/view/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/solver-v1/view/index.html",
 		"oF": 0
 		}
 	},
