@@ -16,6 +16,10 @@
       <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
       <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi euismod in pharetra a ultricies in diam. Sed arcu. Cras consequat.</p>
       <p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam gravida non commodo a sodales sit amet nisi.</p>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh viverra non semper suscipit posuere a pede.</p>
+      <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+      <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi euismod in pharetra a ultricies in diam. Sed arcu. Cras consequat.</p>
+      <p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam gravida non commodo a sodales sit amet nisi.</p>
       <style>
          div.membrbp {
          width: 100%;
@@ -25,11 +29,14 @@
          iframe#membrbp {
          width: 100%;
          min-width: 100%;
+         min-height: 350px;
+         transition: height .3s ease-out;
+         transition-delay: .5s;
          }
       </style>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.1/iframeResizer.min.js"></script>
       <div class="membrbp">
-         <iframe id="membrbp" src="https://booking-calendar-preview.gm.sandbox.membr.com/calendar/gym/831" frameborder="0" onload="iFrameResize({heightCalculationMethod : 'bodyScroll',}, '#membrbp');"></iframe>
+         <iframe id="membrbp" src="https://booking-calendar-preview.gm.sandbox.membr.com/calendar/gym/831" height="250" frameborder="0" onload="iFrameResize({heightCalculationMethod : 'bodyScroll'}, '#membrbp');"></iframe>
       </div>
       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh viverra non semper suscipit posuere a pede.</p>
       <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
