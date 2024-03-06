@@ -1,0 +1,21 @@
+{
+    "short_name": "Reports",
+    "name": "Reports",
+    "icons": [
+    {
+        "src": "/icon.svg",
+        "type": "image/svg+xml",
+        "sizes": "512x512"
+    },
+    {
+        "src": "/icon-192-android.png",
+        "type": "image/png",
+        "sizes": "192x192"
+    },
+    {
+        "src": "/icon-512-maskable.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+    }]
+}

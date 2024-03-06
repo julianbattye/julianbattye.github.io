@@ -17,28 +17,6 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"/android-chrome-192x192.png": {
-		"ft": 32768,
-		"iS": 8137,
-		"oA": 0,
-		"oAP": "/android-chrome-192x192.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/android-chrome-512x512.png": {
-		"ft": 32768,
-		"iS": 25918,
-		"oA": 0,
-		"oAP": "/android-chrome-512x512.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/app/assets/bad-island.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -163,17 +141,6 @@
 		"oS": 3,
 		"sct": 0
 		},
-	"/apple-touch-icon.png": {
-		"ft": 32768,
-		"iS": 7430,
-		"oA": 0,
-		"oAP": "/apple-touch-icon.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/CNAME": {
 		"cB": 0,
 		"ft": 8192,
@@ -192,27 +159,76 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/favicon-16x16.png": {
+	"/favicon backup/android-chrome-192x192.png": {
 		"ft": 32768,
-		"iS": 537,
+		"iS": 8137,
 		"oA": 0,
-		"oAP": "/favicon-16x16.png",
+		"oAP": "/favicon backup/android-chrome-192x192.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/favicon-32x32.png": {
+	"/favicon backup/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 25918,
+		"oA": 0,
+		"oAP": "/favicon backup/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon backup/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 7430,
+		"oA": 0,
+		"oAP": "/favicon backup/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon backup/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 537,
+		"oA": 0,
+		"oAP": "/favicon backup/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon backup/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 1077,
 		"oA": 0,
-		"oAP": "/favicon-32x32.png",
+		"oAP": "/favicon backup/favicon-32x32.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/favicon backup/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/favicon backup/favicon.ico",
+		"oF": 0
+		},
+	"/favicon.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/favicon.html",
+		"oF": 0
 		},
 	"/favicon.ico": {
 		"cB": 0,
@@ -220,6 +236,57 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/favicon.ico",
+		"oF": 0
+		},
+	"/icon-180-ios.png": {
+		"ft": 32768,
+		"iS": 898,
+		"oA": 0,
+		"oAP": "/icon-180-ios.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/icon-192-android.png": {
+		"ft": 32768,
+		"iS": 903,
+		"oA": 0,
+		"oAP": "/icon-192-android.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/icon-512-maskable.png": {
+		"ft": 32768,
+		"iS": 2036,
+		"oA": 0,
+		"oAP": "/icon-512-maskable.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/iframe/index-old.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/iframe/index-old.html",
 		"oF": 0
 		},
 	"/iframe/index.html": {
@@ -236,6 +303,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.html",
+		"oF": 0
+		},
+	"/manifest.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/manifest.webmanifest",
 		"oF": 0
 		},
 	"/questions/assets/client.c67de31f.js": {
